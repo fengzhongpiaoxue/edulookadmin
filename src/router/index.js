@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import SiteCount from '@/pages/siteCount/siteCount'
+import SiteIndex from '@/pages/siteIndex/siteIndex'
 
 Vue.use(Router)
 
@@ -8,8 +8,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'SiteCount',
-      component: SiteCount
+      name: 'SiteIndex',
+      component: SiteIndex
     }
   ]
 })

@@ -3,7 +3,7 @@
     <CommonHeader />
     <el-container direction="horizontal">
       <CommonSider />
-      <SiteInfo />
+      <Component :is="name" />
     </el-container>
   </el-container>
 </template>
@@ -12,19 +12,22 @@
 <script>
 import CommonHeader from '../common/CommonHeader'
 import CommonSider from '../common/CommonSider'
-import SiteInfo from './components/SiteInfo'
+import SiteInfo from './components/SiteArticle'
+import SiteEchart from './components/SiteEcharts'
 import CommonFooter from '../common/CommonFooter'
 export default {
-  name : "siteCount",
+  name : 'siteCount',
   data () {
     return {
-      msg : ""
+      type : "",
+      name : "SiteEchart"
     }
   },
   components : {
     CommonHeader,
     CommonSider,
     SiteInfo,
+    SiteEchart,
     CommonFooter
   }
 }
