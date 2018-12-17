@@ -24,7 +24,7 @@ npm run unit
 npm test
 ```
 
+
 For a detailed explanation on how things work, check out the [guide](http://www.github.com/heroforrose/edulookadmin.git/) and [docs for vue](http://cn.vuejs.com).
 
 ps nodejs is not better 
-
