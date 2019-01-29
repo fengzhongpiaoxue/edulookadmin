@@ -1,6 +1,7 @@
 # study
 
-> A Vue.js project
+
+## just a vue demo
 
 ## Build Setup
 
